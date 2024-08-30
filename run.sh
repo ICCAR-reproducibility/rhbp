@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-docker run --rm -it ICCAR/rhbp
+docker run --rm -it ghcr.io/iccar-reproducibility/rhbp:master

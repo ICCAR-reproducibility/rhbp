@@ -15,3 +15,5 @@ RUN mkdir -p /catkin_ws/src \
 RUN cd /catkin_ws \
   && source /opt/ros/${ROS_DISTRO}/setup.bash \
   && catkin_make
+
+ADD example.py .

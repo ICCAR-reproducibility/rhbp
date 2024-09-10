@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-docker run --rm -it ghcr.io/iccar-reproducibility/rhbp:master
+docker run --rm -it --name rhbp ghcr.io/iccar-reproducibility/rhbp:master roscore
